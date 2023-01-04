@@ -1,0 +1,129 @@
+.tasks {
+
+    max-width: 736px;
+
+    margin: 0 auto;
+
+    margin-top: -26px;
+
+}
+
+.tasks form {
+
+    display: flex;
+    margin-bottom: 64px;
+
+}
+
+.tasks form input {
+
+    border: none;
+    border-radius: 8px;
+    background-color: var(--gray-500);
+
+    margin-right: 8px;
+
+    color: var(--gray-300);
+
+    padding: 15px;
+    width: 638px;
+    height: 54px;
+
+}
+
+.tasks form button[type=submit] {
+
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 0.5rem;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: var(--blue-500);
+
+    padding: 15px;
+    height: 52px;
+
+    color: var(--gray-100);
+    font-weight: bold;
+
+    cursor: pointer;
+
+}
+
+form button[type=submit]:not(:disabled):hover {
+
+    background-color: var(--purple-500);
+
+}
+
+.tasks form button[type=submit]:disabled {
+
+    opacity: 0.7;
+    cursor: not-allowed;
+
+}
+
+.dataOfList {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 24px;
+
+}
+
+.dataOfList .tasksCreated {
+
+    color: var(--blue-100);
+
+    font-size: 0.875rem;
+    font-weight: bold;
+
+}
+
+.dataOfList .tasksCreated span {
+
+    margin-left: 8px;
+
+    border-radius: 999px;
+
+    padding: 2px 8px;
+    
+    background-color: var(--gray-400);
+    color: var(--gray-200);
+
+    font-size: 0.75rem;
+    font-weight: bold;
+
+}
+
+.dataOfList .tasksChecked {
+
+    color: var(--purple-100);
+
+    font-size: 0.875rem;
+    font-weight: bold;
+
+}
+
+.dataOfList .tasksChecked span {
+
+    margin-left: 8px;
+
+    border-radius: 999px;
+
+    padding: 2px 8px;
+    
+    background-color: var(--gray-400);
+    color: var(--gray-200);
+
+    font-size: 0.75rem;
+    font-weight: bold;
+
+}
